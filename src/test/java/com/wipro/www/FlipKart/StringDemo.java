@@ -35,21 +35,4 @@ public class StringDemo {
 
 
 
-//
-//Collections: are a framework in java which works on group of objects/similar objects
-//
-//list, set and Map
-//
-//ArrayList, LinkedList, HashSet and LinkedHashSet , Treeset, HashMap, LinkedHashMap and TreeMap
-//
-//ArrayList<Integer> al=new ArrayList<Integer>();
-//
-//al.add(10);
-//al.add(20);
-//al.add(30);
-
-
-
-
-
 

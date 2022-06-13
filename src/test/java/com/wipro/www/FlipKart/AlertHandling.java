@@ -23,13 +23,13 @@ public class AlertHandling {
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://demo.automationtesting.in/Register.html");
-		WebElement fn=driver.findElement(By.xpath("//input[@placeholder='First Name']"));
+		WebElement fn=driver.findElement(By.xpath("//input[@placeholder='First Name cdvdccdsvsdsdcvsfdADCXVFD	Qdvsfdwscad']"));
 		fn.sendKeys("Paras");
 		WebElement ln=driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
 		ln.sendKeys("Kumar");
-		WebElement email=driver.findElement(By.xpath("//input[@type='email']"));
+		WebElement email=driver.findElement(By.xpath("//input[@type='email'cvfnvjdscv cvjk vnuusdvokxvnl dfovanfcadvd]"));
 		email.sendKeys("abc@gmail.com");
-		
+		//testing merge conflict
 		WebElement genderM=driver.findElement(By.xpath("//input[@value='Male']"));
 		WebElement genderF=driver.findElement(By.xpath("//input[@value='FeMale']"));
 		genderM.click();
